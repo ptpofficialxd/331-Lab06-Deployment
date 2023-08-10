@@ -10,6 +10,7 @@ const { message } = storeToRefs(store)
 
 <template>
   <header class="max-h-screen leading-normal flex flex-col justify-center bg-pink-300 margin-bottom: 50px">
+    <h1 class="mt-10 text-3xl font-semibold text-center text-white mb-4">642115032 Putthipong Ninwong</h1>
     <div id="flashMessage" v-if="message" class="bg-yellow-100 transition duration-3000">
       <h4 class="text-20"> {{ message }}</h4>
     </div>
